@@ -1,10 +1,12 @@
 .bb{
     background-color: black;
 }
-
-@media screen and(max-width:600px) {
-    main {
-        flex-direction: column;
-      }
-    
+.aa{
+    background-color: red;
 }
+  #txt{
+    text-decoration-color:white;
+  }
+h1,h2{
+    font-family: bachlor;
+  }

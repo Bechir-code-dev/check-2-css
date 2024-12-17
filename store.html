@@ -12,7 +12,12 @@
     crossorigin="anonymous"/>
     <link rel="stylesheet" href="/style.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link href="https://fonts.cdnfonts.com/css/fontspace" rel="stylesheet">           
     <style>
+      @font-face {
+        font-family: "bachlor";
+        src: url(/ananda-black-font/AnandaBlackPersonalUseRegular-rg9Rx.ttf);
+      }
     .bach{
       background-image: url(/img/bg2.jpg_large); background-position: center;background-repeat: no-repeat;
           background-size: cover;
@@ -51,42 +56,39 @@
 <body>
 
 
-    
+    <!--section header with navbar-->
 <header>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary ">
-        <div class="container-fluid row>
-
-          <a class="navbar-brand" href="https://clubafricain.com/store" target="_blank" >Boutique Nedi lefriki</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#ho">Home</a>
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link" href="#">Products</a>
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-              </li>
-                      <div> 
-                         <form class="d-flex" role="search">
-                         <input class="form-control ms-5" type="search" placeholder="Search for your style" aria-label="Search">
-                         <button class="btn btn-outline-success" type="submit">click</button>
-                        </form>
-                      </div>  
-          </div>
-
-        </div>
-
-
-      </nav>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand text-decoration-underline" href="https://clubafricain.com/store" target="_blank">Boutique<strong>CA</strong></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="row">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#ho">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#product">Products</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#ab">About</a></li>
+              <li><a class="dropdown-item" href="#conta">Contact Us</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search Your Style" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Click</button>
+        </form>
+      </div>
+    </div>
+    </div>
+  </nav> 
 </header>
 
 
@@ -97,57 +99,67 @@
 
 <main>
 
+<!--section home-->
   <section class="text-center text-white d-flex justify-content-center align-items-center">
     <div class="bach">
     <a name="ho"></a>
       <div class="mt-5">
-          <h1 class="d-inline p-2 col-12 bg-black border border-danger">Club Africain Home</h1><br>
-          <a class="btn btn-danger mt-5">Look our Products</a>
+          <h1 class="position-absolute start-50 top-50 translate-middle  text-bg-danger">Club Africain Home</h1><br>
       </div>
     </div>  
   </section>
 
   
 <br>
+<!--section products-->
 
 <section class="container-fluid">
   <hr>
-  <h2 class="row justify-content-center">Products CA</h2>
-
-<div class="bb row mt-5">
+  <a name="product"></a>
+<h2 class="row justify-content-center">Products CA</h2>
+<div class="bb row mt-5 mb-5 align-items-center">
 <div class="card ms-5" style="width: 18rem;">
-  <img src="/img/pull-off.jpg" class="card-img-top mt-3" alt="Pull off">
+  <img src="/img/pull-off.jpg" class="card-img-top mt-3 " alt="Pull off">
   <div class="card-body">
-    <h5 class="card-title">Official Jersey</h5>
-    <p class="card-text">Portez le plus beau pull dans le monde</p>
-    <a href="#" class="btn btn-danger">Shop Now</a>
+    <h5 class="card-title text-center">Official Jersey</h5>
+    <p class="card-text">Your fashion with best jerysey
+                         Price=110dt
+    </p>
+    <a href="#" class="btn btn-danger ms-5 mt-2">Shop Now</a>
   </div>
 </div>
 
-<div class="card ms-5" style="width: 18rem;">
+<div class="card ms-5 mb-1" style="width: 18rem;">
   <img src="/img/caf-j.jpg" class="card-img-top mt-3" alt="caf-j">
   <div class="card-body">
-    <h5 class="card-title">CAF Jersey</h5>
-    <p class="card-text">Historia infinita CA per l'eternita </p>
-    <a href="#" class="btn btn-danger mt-5">Shop Now</a>
+    <h5 class="card-title text-center">CAF Jersey</h5>
+    <p class="card-text">Historia infinita CA per l'eternita
+                         Price=100dt
+    </p>
+    <a href="#" class="btn btn-danger ms-5 mt-4">Shop Now</a>
   </div>
 </div>
 
-<div class="card ms-5" style="width: 18rem;">
+<div class="card ms-5 " style="width: 18rem;">
   <img src="/img/m-e-g.webp" class="card-img-top" alt="exterieur">
   <div class="card-body">
-    <h5 class="card-title">Goalkeeper Jersey</h5>
-    <p class="card-text">Get Well Soon Moez Hsan.</p>
-    <a href="#" class="btn btn-danger mt-5">Shop Now</a>
+    <h5 class="card-title text-center">Goalkeeper Jersey</h5>
+    <p class="card-text mb-1">Get Well Soon Moez Hsan.
+                             <br> Price=90dt
+                            </p>
+    <a href="#" class="btn btn-danger ms-5 mt-5">Shop Now</a>
   </div>
 </div>
 
 <div class="card ms-5" style="width: 18rem;">
   <img src="/img/maillot-hand.webp" class="card-img-top" alt="hand">
   <div class="card-body">
-    <h5 class="card-title">Handball Jersey</h5>
-    <p class="card-text">Artistic Jersey with red&white</p>
-    <a href="#" class="btn btn-danger mt-5">Shop Now</a>
+    <h5 class="card-title text-center">Handball Jersey</h5>
+    <p class="card-text">Artistic Jersey with red&white.
+                         PASSION WITH HANDBALL
+                         Price=80dt
+    </p>
+    <a href="#" class="btn btn-danger ms-5 mt-3">Shop Now</a>
   </div>
 </div>
 
@@ -155,26 +167,85 @@
 <!--div row-->
 </div>
 </section>
-<section class="container ">
-  <a name=""></a>
+
+
+<!--section about-->
+<section class="aa container ">
+  <a name="ab"></a>
     <div class="row text-center ">
       <div class="col-12 mt-5 mb-5">
         <h2>About Us</h2>
       </div>
       </div>
+
 <div class="row">
-  <img src="/img/boutique.jpg" class="col-sm-12 col-md-6  img-fluid" alt="boutique"/>
-  <p class="col-sm-12 col-md-6 mt-5">
-    Bienvenue dans la boutique officielle de <strong>Club Africain</strong>!
+   <img src="/img/boutique.jpg" class="col-sm-12 col-md-6 mb-5 img-fluid" alt="boutique"/>
+   <p class="col-sm-12 col-md-6 mt-5 text-center" id="txt">
+Bienvenue dans la boutique officielle de <strong>Club Africain</strong>!
 Découvrez notre gamme exclusive de produits pour soutenir votre équipe favorite avec style ! 
 Maillots officiels, écharpes, casquettes, accessoires et bien plus encore. Que vous soyez au stade ou chez vous, 
 affichez fièrement vos couleurs et vivez chaque moment comme un véritable supporter.
 N'attendez plus, explorez notre collection et faites partie de la légende de <strong> Club Africain</strong> dès aujourd'hui !
-   <br>
-    <br>
-  </p>
+Le <strong>Club Africain </strong> s'est inspiré pour son premier emblème des couleurs du drapeau tunisien, le rouge et le blanc, devenant la première et 
+seule association sportive tunisienne de l'époque à arborer le croissant et l'étoile sur la poitrine de ses joueurs comme emblèmes d'un club.
+<br>
+<br>
+   </p>
 </div>
+</section>
+<hr>
 
+
+<!--contact section-->
+<section>
+  <h2 class="text-center">Contact Us</h2>
+  <a name="conta"></a>
+  <form class="row g-3 mt-5">
+    <div class="col-md-6">
+      <label for="inputEmail4" class="form-label">Email</label>
+      <input type="email" class="form-control col-sm-12 col-md-6" placeholder="Your Email" id="inputEmail4">
+    </div>
+    <div class="col-md-6">
+      <label for="inputAddress" class="form-label">Address</label>
+      <input type="text" class="form-control col-sm-12" id="inputAddress" placeholder="ex:11 rue banane ">
+    </div>
+    <div class="col-md-4">
+      <label for="inputCity" class="form-label">City</label>
+      <input type="text" class="form-control col-sm-12" placeholder="Your city" id="inputCity">
+    </div>
+    <div class="col-md-4">
+      <label for="inputState" class="form-label">State</label>
+      <select id="inputState" class="form-select col-sm-12">
+        <option selected>Choose...</option>
+        <option>Ariana</option>
+        <option>Ben arous</option>
+        <option>Beja</option>
+        <option>Nabeul</option>
+        <option>Sousse</option>
+        <option>Bizerte</option>
+        <option>El Kef</option>
+        <option>Tataouine</option>
+        <option>Sfax</option>
+        <option>Mahdiya</option>
+        <option>Djerba</option>
+        <option>Zaghouane</option>
+      </select>
+    </div>
+    <div class="col-md-4">
+      <label for="inputZip" class="form-label">Zip</label>
+      <input type="text" class="form-control col-sm-12" id="inputZip">
+    </div>
+    <div class="col-12">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="gridCheck">
+        <label class="form-check-label" for="gridCheck ms-2">Check me out</label>
+      </div>
+    </div>
+    <div class="col-12">
+      <button type="submit" class="btn btn-primary ms-2
+      ">Sign in</button>
+    </div>
+  </form>
 </section>
 
 
