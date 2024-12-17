@@ -1,0 +1,10 @@
+.bb{
+    background-color: black;
+}
+
+@media screen and(max-width:600px) {
+    main {
+        flex-direction: column;
+      }
+    
+}
