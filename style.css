@@ -1,12 +1,15 @@
 .bb{
     background-color: black;
 }
-.aa{
-    background-color: red;
-}
   #txt{
     text-decoration-color:white;
   }
 h1,h2{
     font-family: bachlor;
   }
+#ca:hover{
+  color: red;
+}
+body {
+  overflow-x: hidden;
+}
